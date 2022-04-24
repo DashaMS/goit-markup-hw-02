@@ -1,0 +1,285 @@
+/*=======Main-Styles======*/
+
+:root
+{
+    --main-color: #757575;
+    --title-color: #212121;
+    --white-color: #FFFFFF;
+    --black-color: #000000;
+    --grey-color: #C4C4C4;
+    --accent-color: #2196F3;
+    --bacground-color: #2F303A;
+    --background-btn-color: #F5F4FA;
+    --addition-color-grey: rgba(255, 255, 255, 0.6);
+    --border-color: #EEEEEE;
+    --main-font:'Roboto', sans-serif;
+    --accen-font: 'Raleway', sans-serif;
+    --main-font-size: 14px;
+}
+
+body
+{
+color: var(--main-color);
+background-color: var(--white-color);
+font-family: var(--main-font);
+font-size: var(--main-font-size);
+}
+
+.list
+{
+    text-decoration: none;
+    list-style: none;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+
+/*=======FIRST-Page======*/
+
+/*=======HEADER======*/
+
+.logo
+{
+    font-family: var(--accen-font);
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--black-color);
+}
+
+.logo-accent
+{
+    color: var(--accent-color);
+    font-family: var(--accen-font);
+}
+
+.nav-list
+{
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--title-color);
+}
+
+.nav-list:hover,
+.nav-list:focus
+{
+    color: var(--accent-color);
+}
+
+.nav-contact
+{
+    font-family: inherit;
+    font-weight: 500;
+    font-size: inherit;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    color:var(--main-color);
+}
+/*=======HEADER======*/
+
+/*=======HERO======*/
+.hero
+{
+    width: 1600px;
+    height: 600px;
+    background-color: var(--bacground-color);
+}
+
+.hero-title
+{
+    width: 696px;
+    height: 120px;
+    left: 452px;
+    top: 200px;
+    
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--white-color);
+    position: absolute;
+    text-align: center;
+    
+}
+
+.hero-btn
+{
+    border-radius: 4px;
+    background-color: var(--accent-color);
+    border-bottom-color: var(--accent-color);
+    width: 200px;
+    height: 50px;
+    position: absolute;
+    left: 700px;
+    top: 430px;
+    margin-top: 30px;
+
+    font-family: inherit;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.9;
+    letter-spacing: 0.06em;
+    color: var(--white-color);
+    cursor: pointer;
+}
+/*=======HERO======*/
+
+/*=======pluses======*/
+.pluses-title
+{
+    font-weight: 700;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--title-color);
+}
+
+.pluses-title-description
+{
+    line-height: 1.7;
+    letter-spacing: 0.03em;
+}
+
+/*=======pluses======*/
+
+/*=======work+team======*/
+.title{
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.16;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.person-name
+{
+font-weight: 500;
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+color:var(--title-color);
+
+}
+
+.post
+{
+font-size: 16px;
+line-height: 1.9;
+letter-spacing: 0.03em;
+}
+
+/*=======work+team======*/
+
+/*=======FOOTER======*/
+
+.footer
+{
+    width: 1600px;
+    height: 252px;
+    background-color: var(--bacground-color);
+}
+
+.logo-accent-white
+{
+    color: var(--white-color);
+}
+
+.contact-map
+{
+font-family: inherit;
+font-style: normal;
+font-weight: inherit;
+font-size: inherit;
+line-height: 1.7;
+letter-spacing: 0.03em;
+color: var(--white-color);
+}
+
+.contact-link
+{
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.03em;
+color: rgba(255, 255, 255, 0.6);
+}
+/*=======FOOTER======*/
+
+/*=======FIRST-Page======*/
+
+
+
+/*=======SECOND-Page======*/
+
+/*=======Gallery======*/
+
+.filter-btn
+{
+    height: 38px;
+    border-radius: 4px;
+    border-color: var(--background-btn-color);
+    background-color: var(--background-btn-color);
+    margin-left: 8px;
+    margin-right: 8px;
+    cursor: pointer;
+    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--title-color);
+}
+
+.filter-btn:hover,
+.filter-btn:focus
+{
+    background-color: var(--accent-color);
+    color: var(--white-color);
+
+}
+
+.gallery-item-name
+{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+    color: var(--title-color) ;
+}
+
+.item-type
+{
+    font-size: 16px;
+    line-height: 1.86;
+    letter-spacing: 0.03em;
+
+}
+
+/*=======Gallery======*/
+
+
+
+/*=======SECOND-Page======*/
+
+
+
+
+
+
+
+
+
